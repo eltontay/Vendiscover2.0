@@ -24,7 +24,7 @@ const Landingpage = () => {
         <H1>MEET</H1>
         <Logo
           src={Boopie}
-          animate={{ y: [0, -10], x: 0 }}
+          animate={{ y: [20, -20], x: 0 }}
           transition={{
             duration: 1,
             yoyo: Infinity,
@@ -39,17 +39,17 @@ const Landingpage = () => {
           }}
           whileTap={{ scale: 0.9 }}
         >
-          Boop!
+          BOOP!
         </Button>
         <P1H>
-          BOOPIE <P1>brings</P1>
+          BOOPIE <P1>BRINGS</P1>
         </P1H>
-        <P2>Vending Machines</P2>
+        <P2>VENDING MACHINES</P2>
         <P3>
-          to the <P3H>Palm</P3H>
+          TO THE <P3H>PALM</P3H>
         </P3>
         <P4>
-          of your <P4H>Hands</P4H>
+          OF YOUR <P4H>HANDS</P4H>
         </P4>
       </Container>
     </Section>
