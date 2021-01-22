@@ -77,13 +77,17 @@ export const P1H = styled(motion.p)`
   font-weight: bold;
   color: #0095dd;
   margin-bottom: 0.5rem;
+  float: left;
 `;
 
 export const P1 = styled(motion.p)`
   font-size: clamp(0.8rem, 4vw, 2rem);
   font-weight: bold;
   color: #331e54;
+  margin-top: 0.25rem;
+  margin-left: 1rem;
   margin-bottom: 0.5rem;
+  float: right;
 `;
 
 export const P2 = styled(motion.p)`
@@ -98,23 +102,31 @@ export const P3 = styled(motion.p)`
   font-weight: bold;
   color: #331e54;
   margin-bottom: 0.5rem;
+  float: left;
 `;
 
 export const P3H = styled(motion.p)`
   font-size: clamp(1.5rem, 5vw, 2.4rem);
   font-weight: bold;
   color: #ff9500;
+  margin-left: 1rem;
+  margin-top: -0.5rem;
   margin-bottom: 0.5rem;
+  float: right;
 `;
 
 export const P4 = styled(motion.p)`
   font-size: clamp(0.8rem, 4vw, 2rem);
   font-weight: bold;
   color: #0fb5ee;
+  float: left;
 `;
 
 export const P4H = styled(motion.p)`
   font-size: clamp(1.5rem, 5vw, 2.4rem);
   font-weight: bold;
   color: #fb2e01;
+  margin-left: 1rem;
+  margin-top: -0.5rem;
+  float: right;
 `;
