@@ -20,7 +20,7 @@ export const Container = styled.div`
   backdrop-filter: blur;
 
   width: 60%;
-  height: 80%;
+  height: 90%;
 
   position: absolute;
   top: 50%;
