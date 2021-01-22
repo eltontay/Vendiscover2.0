@@ -20,7 +20,7 @@ export const Container = styled.div`
   backdrop-filter: blur;
 
   width: 60%;
-  height: 90%;
+  height: 80%;
 
   position: absolute;
   top: 50%;
@@ -36,53 +36,6 @@ export const Container = styled.div`
 
   text-align: center;
   flex-wrap: wrap;
-
-  p1h {
-    font-size: clamp(1.5rem, 5vw, 2.4rem);
-    font-weight: bold;
-    color: #0095dd;
-    margin-bottom: 0.5rem;
-  }
-
-  p1 {
-    font-size: clamp(0.8rem, 4vw, 2rem);
-    font-weight: bold;
-    color: #331e54;
-    margin-bottom: 0.5rem;
-  }
-
-  p2 {
-    font-size: clamp(1.5rem, 5vw, 2.4rem);
-    font-weight: bold;
-    color: #e66000;
-    margin-bottom: 0.5rem;
-  }
-
-  p3 {
-    font-size: clamp(0.8rem, 4vw, 2rem);
-    font-weight: bold;
-    color: #331e54;
-    margin-bottom: 0.5rem;
-  }
-
-  p3h {
-    font-size: clamp(1.5rem, 5vw, 2.4rem);
-    font-weight: bold;
-    color: #ff9500;
-    margin-bottom: 0.5rem;
-  }
-
-  p4 {
-    font-size: clamp(0.8rem, 4vw, 2rem);
-    font-weight: bold;
-    color: #0fb5ee;
-  }
-
-  p4h {
-    font-size: clamp(1.5rem, 5vw, 2.4rem);
-    font-weight: bold;
-    color: #fb2e01;
-  }
 `;
 
 export const H1 = styled.header`
@@ -117,4 +70,51 @@ export const Button = styled(motion.button)`
   border-radius: 10px;
   margin-bottom: 1rem;
   cursor: pointer;
+`;
+
+export const P1H = styled(motion.p)`
+  font-size: clamp(1.5rem, 5vw, 2.4rem);
+  font-weight: bold;
+  color: #0095dd;
+  margin-bottom: 0.5rem;
+`;
+
+export const P1 = styled(motion.p)`
+  font-size: clamp(0.8rem, 4vw, 2rem);
+  font-weight: bold;
+  color: #331e54;
+  margin-bottom: 0.5rem;
+`;
+
+export const P2 = styled(motion.p)`
+  font-size: clamp(1.5rem, 5vw, 2.4rem);
+  font-weight: bold;
+  color: #e66000;
+  margin-bottom: 0.5rem;
+`;
+
+export const P3 = styled(motion.p)`
+  font-size: clamp(0.8rem, 4vw, 2rem);
+  font-weight: bold;
+  color: #331e54;
+  margin-bottom: 0.5rem;
+`;
+
+export const P3H = styled(motion.p)`
+  font-size: clamp(1.5rem, 5vw, 2.4rem);
+  font-weight: bold;
+  color: #ff9500;
+  margin-bottom: 0.5rem;
+`;
+
+export const P4 = styled(motion.p)`
+  font-size: clamp(0.8rem, 4vw, 2rem);
+  font-weight: bold;
+  color: #0fb5ee;
+`;
+
+export const P4H = styled(motion.p)`
+  font-size: clamp(1.5rem, 5vw, 2.4rem);
+  font-weight: bold;
+  color: #fb2e01;
 `;
