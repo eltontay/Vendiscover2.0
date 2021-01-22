@@ -1,7 +1,12 @@
 import './App.css';
+import Landingpage from '../src/components/Landingpage';
 
 function App() {
-  return <div className="App">wassup</div>;
+  return (
+    <div className="App">
+      <Landingpage />
+    </div>
+  );
 }
 
 export default App;
