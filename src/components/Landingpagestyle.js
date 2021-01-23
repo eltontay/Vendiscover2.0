@@ -15,10 +15,6 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-  backdrop-filter: blur(6px);
-  background-color: rgba(0, 0, 0, 0);
-  backdrop-filter: blur;
-
   width: 60%;
   height: 90%;
 
@@ -43,6 +39,7 @@ export const H1 = styled(motion.header)`
   font-weight: bold;
   color: #204e9c;
   margin-bottom: 1rem;
+  backdrop-filter: blur(6px);
 `;
 
 export const Logo = styled(motion.img)`
@@ -56,6 +53,7 @@ export const H2 = styled(motion.header)`
   font-weight: bold;
   color: #fb2e01;
   margin-bottom: 1rem;
+  backdrop-filter: blur(6px);
 `;
 
 export const Button = styled(motion.button)`
@@ -78,6 +76,7 @@ export const P1H = styled(motion.object)`
   color: #0095dd;
   float: left;
   text-align: right;
+  backdrop-filter: blur(6px);
 `;
 
 export const P1 = styled(motion.object)`
@@ -88,6 +87,7 @@ export const P1 = styled(motion.object)`
   text-align: left;
   margin-left: 1rem;
   margin-top: 0.25rem;
+  backdrop-filter: blur(6px);
 `;
 
 export const P2 = styled(motion.object)`
@@ -95,6 +95,7 @@ export const P2 = styled(motion.object)`
   font-weight: bold;
   color: #e66000;
   margin-top: 0.5rem;
+  backdrop-filter: blur(6px);
 `;
 
 export const P3 = styled(motion.object)`
@@ -103,6 +104,7 @@ export const P3 = styled(motion.object)`
   color: #331e54;
   margin-top: 1rem;
   float: left;
+  backdrop-filter: blur(6px);
 `;
 
 export const P3H = styled(motion.object)`
@@ -112,6 +114,7 @@ export const P3H = styled(motion.object)`
   margin-left: 1rem;
   margin-top: 0.75rem;
   float: right;
+  backdrop-filter: blur(6px);
 `;
 
 export const P4 = styled(motion.object)`
@@ -120,6 +123,7 @@ export const P4 = styled(motion.object)`
   color: #0fb5ee;
   float: left;
   margin-top: 1rem;
+  backdrop-filter: blur(6px);
 `;
 
 export const P4H = styled(motion.object)`
@@ -129,4 +133,5 @@ export const P4H = styled(motion.object)`
   margin-left: 1rem;
   margin-top: 0.75rem;
   float: right;
+  backdrop-filter: blur(6px);
 `;

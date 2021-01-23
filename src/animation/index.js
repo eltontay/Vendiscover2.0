@@ -36,44 +36,20 @@ export const animationThree = {
 };
 
 export const vendingmachineAnimationOne = {
-  x: [0, 20],
-  y: [10, -10],
+  scale: 1.1,
   transition: {
-    x: {
-      repeat: Infinity,
-      repeatType: 'reverse',
-      duration: 0.5,
-      damping: 500,
-      ease: 'easeInOut',
-    },
-    y: {
-      repeat: Infinity,
-      repeatType: 'reverse',
-      duration: 0.25,
-      damping: 500,
-      ease: 'easeInOut',
-    },
+    duration: 1,
+    repeat: Infinity,
+    repeatType: 'reverse',
   },
 };
 
 export const vendingmachineAnimationTwo = {
-  x: [0, 20],
-  y: [10, -10],
+  scale: 1.1,
   transition: {
-    x: {
-      repeat: Infinity,
-      repeatType: 'reverse',
-      duration: 1,
-      damping: 500,
-      ease: 'easeInOut',
-    },
-    y: {
-      repeat: Infinity,
-      repeatType: 'reverse',
-      duration: 0.5,
-      damping: 500,
-      ease: 'easeInOut',
-    },
+    duration: 0.5,
+    repeat: Infinity,
+    repeatType: 'reverse',
   },
 };
 

@@ -79,8 +79,8 @@ const Landingpage = () => {
             </P1>
           </div>
           <P2
-            whileHover={vendingmachineAnimationOne}
-            animate={vendingmachineAnimationTwo}
+            whileHover={vendingmachineAnimationTwo}
+            animate={vendingmachineAnimationOne}
           >
             VENDING MACHINES
           </P2>
