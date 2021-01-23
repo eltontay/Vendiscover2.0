@@ -38,18 +38,20 @@ export const animationThree = {
 export const vendingmachineAnimationOne = {
   scale: 1.1,
   transition: {
-    duration: 1,
+    duration: 0.7,
     repeat: Infinity,
     repeatType: 'reverse',
+    ease: 'easeInOut',
   },
 };
 
 export const vendingmachineAnimationTwo = {
-  scale: 1.1,
+  scale: 1.2,
   transition: {
     duration: 0.5,
     repeat: Infinity,
     repeatType: 'reverse',
+    ease: 'easeInOut',
   },
 };
 
@@ -73,6 +75,56 @@ export const logoAnimationTwo = {
     repeatType: 'reverse',
     ease: 'easeInOut',
   },
+};
+
+export const H1animation = {
+  scale: 1.1,
+  transition: { duration: 0.3 },
+};
+
+export const H2animation = {
+  scale: 1.1,
+  transition: { duration: 0.3 },
+};
+
+export const ButtonanimationHover = {
+  scale: 1.3,
+  transition: { duration: 0.3 },
+};
+
+export const ButtonanimationTap = {
+  scale: 0.9,
+  transition: { duration: 0.3 },
+};
+
+export const P1Hanimation = {
+  scale: 1.1,
+  transition: { duration: 0.3 },
+};
+
+export const P1animation = {
+  scale: 1.1,
+  transition: { duration: 0.3 },
+};
+
+export const P3animation = {
+  scale: 1.1,
+  transition: { duration: 0.3 },
+};
+
+export const P3Hanimation = {
+  scale: 1.1,
+  transition: { duration: 0.3 },
+};
+
+export const P4Hanimation = {
+  scale: 1.1,
+  transition: { duration: 0.3 },
+};
+
+export const P4animation = {
+  scale: 1.1,
+  transition: { duration: 0.3 },
 };
 
 export const transition = {

@@ -39,12 +39,14 @@ export const H1 = styled(motion.header)`
   font-weight: bold;
   color: #204e9c;
   margin-bottom: 1rem;
+  cursor: pointer;
 `;
 
 export const Logo = styled(motion.img)`
   height: calc(554px / 4);
   width: calc(484px / 4);
   margin-bottom: 1rem;
+  cursor: pointer;
 `;
 
 export const H2 = styled(motion.header)`
@@ -52,6 +54,7 @@ export const H2 = styled(motion.header)`
   font-weight: bold;
   color: #fb2e01;
   margin-bottom: 1rem;
+  cursor: pointer;
 `;
 
 export const Button = styled(motion.button)`
@@ -75,6 +78,7 @@ export const P1H = styled(motion.object)`
   float: left;
   text-align: right;
   backdrop-filter: blur(6px);
+  cursor: pointer;
 `;
 
 export const P1 = styled(motion.object)`
@@ -86,6 +90,7 @@ export const P1 = styled(motion.object)`
   margin-left: 1rem;
   margin-top: 0.25rem;
   backdrop-filter: blur(6px);
+  cursor: pointer;
 `;
 
 export const P2 = styled(motion.object)`
@@ -94,6 +99,7 @@ export const P2 = styled(motion.object)`
   color: #e66000;
   margin-top: 0.5rem;
   backdrop-filter: blur(6px);
+  cursor: pointer;
 `;
 
 export const P3 = styled(motion.object)`
@@ -103,6 +109,7 @@ export const P3 = styled(motion.object)`
   margin-top: 1rem;
   float: left;
   backdrop-filter: blur(6px);
+  cursor: pointer;
 `;
 
 export const P3H = styled(motion.object)`
@@ -113,6 +120,7 @@ export const P3H = styled(motion.object)`
   margin-top: 0.75rem;
   float: right;
   backdrop-filter: blur(6px);
+  cursor: pointer;
 `;
 
 export const P4 = styled(motion.object)`
@@ -122,6 +130,7 @@ export const P4 = styled(motion.object)`
   float: left;
   margin-top: 1rem;
   backdrop-filter: blur(6px);
+  cursor: pointer;
 `;
 
 export const P4H = styled(motion.object)`
@@ -132,4 +141,5 @@ export const P4H = styled(motion.object)`
   margin-top: 0.75rem;
   float: right;
   backdrop-filter: blur(6px);
+  cursor: pointer;
 `;
