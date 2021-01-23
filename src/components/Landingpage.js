@@ -16,43 +16,113 @@ import {
 } from './Landingpagestyle';
 import Space from '../images/spacedoodle.png';
 import Boopie from '../images/Boopie.jpeg';
+import { motion } from 'framer-motion';
+import {
+  animationOne,
+  vendingmachineAnimationOne,
+  vendingmachineAnimationTwo,
+  logoAnimationOne,
+  logoAnimationTwo,
+} from '../animation';
 
 const Landingpage = () => {
   return (
-    <Section image={Space}>
-      <Container>
-        <H1>MEET</H1>
-        <Logo
-          src={Boopie}
-          animate={{ y: [20, -20], x: 0 }}
-          transition={{
-            duration: 1,
-            yoyo: Infinity,
-            ease: 'easeOut',
-          }}
-        />
-        <H2>BOOPIE</H2>
-        <Button
-          whileHover={{
-            scale: 1.1,
-            transition: { duration: 0.3 },
-          }}
-          whileTap={{ scale: 0.9 }}
-        >
-          BOOP!
-        </Button>
-        <P1H>
-          BOOPIE <P1>BRINGS</P1>
-        </P1H>
-        <P2>VENDING MACHINES</P2>
-        <P3>
-          TO THE <P3H>PALM</P3H>
-        </P3>
-        <P4>
-          OF YOUR <P4H>HANDS</P4H>
-        </P4>
-      </Container>
-    </Section>
+    <motion.div initial="out" animate="in" exit="out" variants={animationOne}>
+      <Section image={Space}>
+        <Container>
+          <H1
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.3 },
+            }}
+          >
+            MEET
+          </H1>
+          <Logo
+            src={Boopie}
+            animate={logoAnimationOne}
+            whileHover={logoAnimationTwo}
+          />
+          <H2
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.3 },
+            }}
+          >
+            BOOPIE
+          </H2>
+          <Button
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.3 },
+            }}
+            whileTap={{ scale: 0.9 }}
+          >
+            BOOP!
+          </Button>
+          <div>
+            <P1H
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+              }}
+            >
+              BOOPIE
+            </P1H>
+            <P1
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+              }}
+            >
+              BRINGS
+            </P1>
+          </div>
+          <P2
+            whileHover={vendingmachineAnimationOne}
+            animate={vendingmachineAnimationTwo}
+          >
+            VENDING MACHINES
+          </P2>
+          <div>
+            <P3
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+              }}
+            >
+              TO THE{' '}
+            </P3>
+            <P3H
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+              }}
+            >
+              PALM
+            </P3H>
+          </div>
+          <div>
+            <P4
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+              }}
+            >
+              OF YOUR{' '}
+            </P4>
+            <P4H
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+              }}
+            >
+              HANDS
+            </P4H>
+          </div>
+        </Container>
+      </Section>
+    </motion.div>
   );
 };
 
