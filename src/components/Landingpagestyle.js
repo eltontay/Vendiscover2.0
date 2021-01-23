@@ -39,7 +39,6 @@ export const H1 = styled(motion.header)`
   font-weight: bold;
   color: #204e9c;
   margin-bottom: 1rem;
-  backdrop-filter: blur(6px);
 `;
 
 export const Logo = styled(motion.img)`
@@ -53,7 +52,6 @@ export const H2 = styled(motion.header)`
   font-weight: bold;
   color: #fb2e01;
   margin-bottom: 1rem;
-  backdrop-filter: blur(6px);
 `;
 
 export const Button = styled(motion.button)`
