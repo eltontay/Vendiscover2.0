@@ -94,6 +94,7 @@ export const P2 = styled(motion.object)`
   font-size: clamp(1.5rem, 5vw, 2.4rem);
   font-weight: bold;
   color: #e66000;
+  margin-top: 0.5rem;
 `;
 
 export const P3 = styled(motion.object)`
@@ -109,7 +110,7 @@ export const P3H = styled(motion.object)`
   font-weight: bold;
   color: #ff9500;
   margin-left: 1rem;
-  margin-top: -0.25rem;
+  margin-top: 0.75rem;
   float: right;
 `;
 
@@ -126,6 +127,6 @@ export const P4H = styled(motion.object)`
   font-weight: bold;
   color: #fb2e01;
   margin-left: 1rem;
-  margin-top: -0.25rem;
+  margin-top: 0.75rem;
   float: right;
 `;

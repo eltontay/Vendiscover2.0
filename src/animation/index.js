@@ -44,12 +44,14 @@ export const vendingmachineAnimationOne = {
       repeatType: 'reverse',
       duration: 0.5,
       damping: 500,
+      ease: 'easeInOut',
     },
     y: {
       repeat: Infinity,
       repeatType: 'reverse',
       duration: 0.25,
       damping: 500,
+      ease: 'easeInOut',
     },
   },
 };
@@ -63,12 +65,14 @@ export const vendingmachineAnimationTwo = {
       repeatType: 'reverse',
       duration: 1,
       damping: 500,
+      ease: 'easeInOut',
     },
     y: {
       repeat: Infinity,
       repeatType: 'reverse',
       duration: 0.5,
       damping: 500,
+      ease: 'easeInOut',
     },
   },
 };
@@ -80,7 +84,7 @@ export const logoAnimationOne = {
     duration: 1,
     repeat: Infinity,
     repeatType: 'reverse',
-    ease: 'easeOut',
+    ease: 'easeInOut',
   },
 };
 
@@ -91,7 +95,7 @@ export const logoAnimationTwo = {
     duration: 0.5,
     repeat: Infinity,
     repeatType: 'reverse',
-    ease: 'easeOut',
+    ease: 'easeInOut',
   },
 };
 
