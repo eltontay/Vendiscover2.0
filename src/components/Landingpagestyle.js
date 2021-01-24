@@ -77,7 +77,6 @@ export const P1H = styled(motion.object)`
   color: #0095dd;
   float: left;
   text-align: right;
-  backdrop-filter: blur(6px);
   cursor: pointer;
 `;
 
@@ -89,7 +88,6 @@ export const P1 = styled(motion.object)`
   text-align: left;
   margin-left: 1rem;
   margin-top: 0.25rem;
-  backdrop-filter: blur(6px);
   cursor: pointer;
 `;
 
@@ -98,7 +96,6 @@ export const P2 = styled(motion.object)`
   font-weight: bold;
   color: #e66000;
   margin-top: 0.5rem;
-  backdrop-filter: blur(6px);
   cursor: pointer;
 `;
 
@@ -108,7 +105,6 @@ export const P3 = styled(motion.object)`
   color: #331e54;
   margin-top: 1rem;
   float: left;
-  backdrop-filter: blur(6px);
   cursor: pointer;
 `;
 
@@ -119,7 +115,6 @@ export const P3H = styled(motion.object)`
   margin-left: 1rem;
   margin-top: 0.75rem;
   float: right;
-  backdrop-filter: blur(6px);
   cursor: pointer;
 `;
 
@@ -129,7 +124,6 @@ export const P4 = styled(motion.object)`
   color: #0fb5ee;
   float: left;
   margin-top: 1rem;
-  backdrop-filter: blur(6px);
   cursor: pointer;
 `;
 
@@ -140,6 +134,5 @@ export const P4H = styled(motion.object)`
   margin-left: 1rem;
   margin-top: 0.75rem;
   float: right;
-  backdrop-filter: blur(6px);
   cursor: pointer;
 `;

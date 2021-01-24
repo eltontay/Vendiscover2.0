@@ -36,9 +36,9 @@ export const animationThree = {
 };
 
 export const vendingmachineAnimationOne = {
-  scale: 1.1,
+  scale: 1.2,
   transition: {
-    duration: 0.7,
+    duration: 0.5,
     repeat: Infinity,
     repeatType: 'reverse',
     ease: 'easeInOut',
@@ -46,9 +46,9 @@ export const vendingmachineAnimationOne = {
 };
 
 export const vendingmachineAnimationTwo = {
-  scale: 1.2,
+  scale: 1.3,
   transition: {
-    duration: 0.5,
+    duration: 0.3,
     repeat: Infinity,
     repeatType: 'reverse',
     ease: 'easeInOut',
