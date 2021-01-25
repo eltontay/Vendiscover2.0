@@ -37,7 +37,7 @@ const Sidebar = () => {
               exact="true"
               offset={-80}
             >
-              About
+              About Us
             </SidebarLink>
             <SidebarLinkAdj
               onClick={toggle}
@@ -47,7 +47,7 @@ const Sidebar = () => {
               exact="true"
               offset={-80}
             >
-              Discover
+              Contact Us
             </SidebarLinkAdj>
             <SidebarLink
               onClick={toggle}
@@ -57,7 +57,7 @@ const Sidebar = () => {
               exact="true"
               offset={-80}
             >
-              Contact Us
+              Boopie's Journey
             </SidebarLink>
           </SidebarMenu>
         </SidebarWrapper>
