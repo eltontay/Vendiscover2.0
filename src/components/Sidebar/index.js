@@ -6,8 +6,6 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
-  SidebarRoute,
-  SideBtnWrap,
   SidebarLinkAdj,
   MobileIcon,
 } from './SidebarElements';
