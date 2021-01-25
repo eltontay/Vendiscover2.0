@@ -94,7 +94,7 @@ export const ButtonanimationHover = {
 
 export const ButtonanimationTap = {
   scale: 0.9,
-  transition: { duration: 0.3 },
+  transition: { duration: 0.1 },
 };
 
 export const P1Hanimation = {

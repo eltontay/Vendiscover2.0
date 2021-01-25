@@ -34,11 +34,13 @@ import {
   P4animation,
   P4Hanimation,
 } from '../animation';
+import Sidebar from '../components/Sidebar';
 
 const Landingpage = () => {
   return (
     <motion.div initial="out" animate="in" exit="out" variants={animationOne}>
       <Section image={Space}>
+        <Sidebar />
         <Container>
           <H1 whileHover={H1animation}>MEET</H1>
           <Logo
