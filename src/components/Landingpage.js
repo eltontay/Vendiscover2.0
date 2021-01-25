@@ -15,7 +15,7 @@ import {
   P4H,
 } from './Landingpagestyle';
 import Space from '../images/spacedoodle.png';
-import Boopie from '../images/Boopie.jpeg';
+import Boopie from '../images/boopie.svg';
 import { motion } from 'framer-motion';
 import {
   animationOne,
