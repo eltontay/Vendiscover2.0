@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import {
   SidebarContainer,
-  Icon,
   CloseIcon,
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
   SidebarLinkAdj,
-  MobileIcon,
+  OpenIcon,
 } from './SidebarElements';
-import { FaBars } from 'react-icons/fa';
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,13 +18,9 @@ const Sidebar = () => {
 
   return (
     <div>
-      <MobileIcon onClick={toggle}>
-        <FaBars />
-      </MobileIcon>
+      <OpenIcon onClick={toggle} />
       <SidebarContainer isOpen={isOpen} onClick={toggle}>
-        <Icon onClick={toggle}>
-          <CloseIcon />
-        </Icon>
+        <CloseIcon onClick={toggle} />
         <SidebarWrapper>
           <SidebarMenu>
             <SidebarLink

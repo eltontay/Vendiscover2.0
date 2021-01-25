@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 
 export const SidebarContainer = styled.aside`
   position: fixed;
@@ -19,11 +20,17 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
 `;
 
-export const CloseIcon = styled(FaTimes)`
-  color: #000000;
+export const OpenIcon = styled(FaBars)`
+  position: absolute;
+  transform: translate(-100%, 60%);
+  font-size: 2.5rem;
+  cursor: pointer;
+
+  top: -0.5rem;
+  right: -1rem;
 `;
 
-export const Icon = styled.div`
+export const CloseIcon = styled(FaTimes)`
   position: absolute;
   top: 1.2rem;
   right: 1.5rem;
@@ -32,6 +39,7 @@ export const Icon = styled.div`
   font-size: 3rem;
   cursor: pointer;
   outline: none;
+  color: #000000;
 `;
 
 export const SidebarWrapper = styled.div`
@@ -81,14 +89,4 @@ export const SidebarLinkAdj = styled(LinkR)`
     color: #01bf71;
     transition: 0.2s ease-in-out;
   }
-`;
-
-export const MobileIcon = styled.div`
-  display: block;
-  position: absolute;
-  top: -0.5rem;
-  right: -0.8rem;
-  transform: translate(-100%, 60%);
-  font-size: 2.5rem;
-  cursor: pointer;
 `;

@@ -98,32 +98,32 @@ export const ButtonanimationTap = {
 };
 
 export const P1Hanimation = {
-  scale: 1.1,
+  scale: 1.2,
   transition: { duration: 0.3 },
 };
 
 export const P1animation = {
-  scale: 1.1,
+  scale: 1.2,
   transition: { duration: 0.3 },
 };
 
 export const P3animation = {
-  scale: 1.1,
+  scale: 1.2,
   transition: { duration: 0.3 },
 };
 
 export const P3Hanimation = {
-  scale: 1.1,
+  scale: 1.2,
   transition: { duration: 0.3 },
 };
 
 export const P4Hanimation = {
-  scale: 1.1,
+  scale: 1.2,
   transition: { duration: 0.3 },
 };
 
 export const P4animation = {
-  scale: 1.1,
+  scale: 1.2,
   transition: { duration: 0.3 },
 };
 

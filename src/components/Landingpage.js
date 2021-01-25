@@ -35,6 +35,7 @@ import {
   P4Hanimation,
 } from '../animation';
 import Sidebar from '../components/Sidebar';
+import Footer from './Footer';
 
 const Landingpage = () => {
   return (
@@ -74,6 +75,7 @@ const Landingpage = () => {
             <P4H whileHover={P4Hanimation}>HANDS</P4H>
           </div>
         </Container>
+        <Footer />
       </Section>
     </motion.div>
   );
